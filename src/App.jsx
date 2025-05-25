@@ -863,44 +863,7 @@ const sliderRef = useRef(null);
       </div>
     </section>
 
-      {/*<div id="events">
-  <div id="black-sheet">
-    <div id="event_title">
-      <span id="our1"><b>EVENTS</b></span>
-      <span id="events1"><b>'2024&25</b></span>
-    </div>
-    
-    <div id="container-head">
-      <button id="scroll-left" className="scroll-button">❮</button>
-      <div id="event-scroll-wrapper">
-        <div id="event-container">
-          <div id="events-scroll-container">
-            {/* Your event boxes here */}{/*
-            <Animate_8 width="100%" delay={0}>
-              <div className='event-boxes' id="ket1" onClick={toggleDescrition}></div>
-            </Animate_8>
-            <Animate_11 width="100%" delay={0.3}>
-              <div className='event-boxes' id="ket2" onClick={toggleDescrition1}></div>
-            </Animate_11>
-            <Animate_10 width="100%">
-              <div className='event-boxes' id="ket3" onClick={toggleDescrition3}></div>
-            </Animate_10>
-            <Animate_8 width="100%" delay={0}>
-              <div className='event-boxes' id="ket4" onClick={toggleDescrition4}></div>
-            </Animate_8>
-            <Animate_11 width="100%" delay={0.3}>
-              <div className='event-boxes' id="ket5" onClick={toggleDescrition5}></div>
-            </Animate_11>
-            {/* <Animate_10 width="100%">
-              <div className='event-boxes' id="ket6" onClick={toggleDescrition3}></div>
-            </Animate_10> */}{/*}
-          </div>
-        </div>
-      </div>
-      <button id="scroll-right" className="scroll-button">❯</button>
-    </div>
-  </div>
-</div>*/}
+
 <div id="events_">
       <div id="black-sheet">
         <div id="event_title">

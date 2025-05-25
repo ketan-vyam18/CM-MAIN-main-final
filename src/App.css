@@ -762,16 +762,18 @@ font-size: 23px !important;
   #event-container{
     flex-direction: column;
     margin-top: 18vh;
+    
   }
  
     #events_{
-      height: 190vw !important;
-    
+      height: 145vw !important;
+      
     }
   
 
   #event-boxes{
-    margin-left: 90vw;
+    /* margin-left: 90vw; */
+    box-shadow: none;
   }
 
   #infi-desc{
@@ -788,7 +790,7 @@ height: 70vh !important;
    
     
     border: groove #0176B3 5px ;
-    box-shadow: 0 0 80px #0176B3;
+    /* box-shadow: 0 0 80px #0176B3; */
   }
   #cm-logo{
     height:5vh !important;
@@ -863,11 +865,6 @@ height: 70vh !important;
   #form-submit{
     font-size: 3vw !important;
   }
-  #ket1{
- 
-
-  }
-  #event_title{}
  
   #infi_flex{
     flex-direction: column;
@@ -1940,6 +1937,7 @@ service-item .child {
     justify-content: space-around;
     align-items: center;
     height: 100vh;
+    /* background-color: red; */
 
     
   }
@@ -2027,23 +2025,23 @@ service-item .child {
   }
   #infi-desc{
     position: fixed; /* Stays in the same position on scroll */
-top: 50%;
-left: 50%;
-transform: translate(-50%, -50%); /* Centers the element */
-width: 80vw; /* 80% of the viewport width */
-height: 80vh; /* 80% of the viewport height */
-background-color: #151515;
-z-index: 9999; /* Ensures it's on top */
-box-shadow:0 0 40px #0176B3;
-border: groove 4px #0176B3;
-
-
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Centers the element */
+    width: 80vw; /* 80% of the viewport width */
+    height: 80vh; /* 80% of the viewport height */
+    background-color: #151515;
+    z-index: 9999; /* Ensures it's on top */
+    box-shadow:0 0 40px #0176B3;
+    border: groove 4px #0176B3;
   }
+
   /* Event Box Styles (keep all your existing ket1-ket6 styles) */
 /* */#ket1, #ket2, #ket3, #ket4, #ket5, #ket6 {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  /* box-shadow: red; */
 }
 
 #ket1 { background-image: url("./public/WhatsApp Image 2025-04-11 at 22.08.58_fe707931.jpg"); }
@@ -2060,121 +2058,7 @@ border: groove 4px #0176B3;
   background-size: 20%;
 }
 
-/* Scroll Container Styles *//*
-#container-head {
-  width: 100%;
-  position: relative;
-  display: flex;
-  align-items: center;
-}
 
-.scroll-button {
-  background: rgba(0, 0, 0, 0.7);
-  color: white;
-  border: none;
-  font-size: 2rem;
-  padding: 0 15px;
-  height: 100px;
-  cursor: pointer;
-  z-index: 10;
-  border-radius: 5px;
-  transition: all 0.3s ease;
-  position: absolute;
-}
-
-.scroll-button:hover {
-  background: rgba(0, 0, 0, 0.9);
-  transform: scale(1.1);
-}
-
-#scroll-left {
-  left: 10px;
-}
-
-#scroll-right {
-  right: 10px;
-}
-
-#event-scroll-wrapper {
-  width: 100%;
-  overflow-x: hidden;
-  overflow-y: hidden;
-  padding-top: 35px;
-  border-top: 2px solid #333;
-  border-bottom: 2px solid #333;
-  scroll-behavior: smooth;
-}
-
-/* Event Container & Boxes *//*
-#event-container {
-  display: inline-flex;
-  gap: 25px;
-  padding: 20px calc(20% - 200px);
-  box-sizing: border-box;
-  margin-top: -15px;
-}
-
-.event-boxes {
-  flex: 0 0 auto;
-  width: 480px;
-  height: 500px;
-  border-radius: 8px;
-  transition: all 0.3s ease;
-  cursor: pointer;
-}
-
-/* Mobile Responsiveness *//*
-@media (max-width: 768px) {
-  #event-container {
-    padding: 0 20px;
-    gap: 15px;
-  }
-  
-  .event-boxes {
-    width: 300px;
-    height: 375px;
-  }
-  
-  #event-scroll-wrapper {
-    padding-top: 25px;
-  }
-  
-  .scroll-button {
-    font-size: 1.5rem;
-    height: 80px;
-    padding: 0 10px;
-  }
-}
-
-#events-scroll-container {
-  display: flex;
-  padding: 20px 10px;
-  width: max-content;
-}
-
-/* Hide the scrollbar since we're using buttons now *//*
-#event-scroll-wrapper::-webkit-scrollbar {
-  display: none;
-}
-
-#event-scroll-wrapper {
-  -ms-overflow-style: none;
-  scrollbar-width: none;
-} */
-/* Remove or comment out these since React Slick replaces these containers */
-#event-container {
-  /* display: inline-flex;
-  gap: 25px;
-  padding: 20px calc(20% - 200px);
-  box-sizing: border-box;
-  margin-top: -15px; */
-}
-
-#events-scroll-container {
-  /* display: flex;
-  padding: 20px 10px;
-  width: max-content; */
-}
 
 /* Adjust event-scroll-wrapper */
 #event-scroll-wrapper {
@@ -2184,6 +2068,10 @@ border: groove 4px #0176B3;
   overflow-y: hidden; */
   padding-top: 35px;
   border: none;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  /* align-items: center; */
 
 }
 
@@ -2205,6 +2093,8 @@ border: groove 4px #0176B3;
   }
   #event-scroll-wrapper {
     padding-top: 25px;
+    padding-left: 12vw;
+    justify-content: center;
   }
   .scroll-button {
     font-size: 1.5rem;

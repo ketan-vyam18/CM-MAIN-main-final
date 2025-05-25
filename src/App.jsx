@@ -1146,7 +1146,7 @@ const sliderRef = useRef(null);
                   <div className="icon">
                     <i className="lni lni-map"></i>
                   </div>
-                  <p>INFINITUM</p>
+                  <p>NITC</p>
                 </div>
               </Animate_4>
             </div>
@@ -1157,7 +1157,7 @@ const sliderRef = useRef(null);
                   <div className="icon">
                     <i className="lni lni-timer"></i>
                   </div>
-                  <p>January 2024</p>
+                  <p>June 2025</p>
                 </div>
               </Animate_4>
             </div>
@@ -1168,8 +1168,8 @@ const sliderRef = useRef(null);
                   <div className="icon">
                     <i className="lni lni-users"></i>
                   </div>
-                  <p>30,000+ Participants</p>
-                </div>
+                  <p>32,000+ Participants</p>
+                </div> 
               </Animate_4>
             </div>
 
@@ -1179,7 +1179,7 @@ const sliderRef = useRef(null);
                   <div className="icon">
                     <i className="lni lni-cup"></i>
                   </div>
-                  <p>1 lakh worth prizes</p>
+                  <p>2 lakh worth prizes</p>
                 </div>
               </Animate_4>
             </div>

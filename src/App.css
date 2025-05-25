@@ -649,8 +649,8 @@ font-size: 23px !important;
     align-items: center;
     
   } */
-#our1{
-  font-size: 8vh !important;
+#our1 {
+  font-size: 10vh !important;
   font-family: 'Azonix', sans-serif;
 }
 #events1{
@@ -671,7 +671,7 @@ font-size: 23px !important;
     align-items: center;
     
   } */
-#our1{
+#our1 {
   font-size:5vh !important;
 }
 #events1{
@@ -1016,7 +1016,7 @@ height: 60vw;
   background-color:  #000000;
 }
 #our1{
-  font-size: 60px;
+  font-size: 100px;
   margin-right: 4vh;
   color:white;
   font-family: 'Azonix', sans-serif;
@@ -2032,7 +2032,7 @@ left: 50%;
 transform: translate(-50%, -50%); /* Centers the element */
 width: 80vw; /* 80% of the viewport width */
 height: 80vh; /* 80% of the viewport height */
-backdrop-filter: blur(130px); /* Adds blur effect */
+background-color: #151515;
 z-index: 9999; /* Ensures it's on top */
 box-shadow:0 0 40px #0176B3;
 border: groove 4px #0176B3;

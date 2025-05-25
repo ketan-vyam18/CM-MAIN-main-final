@@ -905,7 +905,7 @@ const sliderRef = useRef(null);
       <div id="black-sheet">
         <div id="event_title">
           <span id="our1"><b>EVENTS</b></span>
-          <span id="events1"><b>'2024&25</b></span>
+          
         </div>
 
         <div id="container-head">

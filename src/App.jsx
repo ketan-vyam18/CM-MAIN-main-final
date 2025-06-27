@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import {Reveal,Animate_1,Animate_2,Animate_3,Animate_4,Animate_5,Animate_6,Animate_7,Animate_8,Animate_9,Animate_10,Animate_11} from '/AnimatedContent';
+import {Reveal,Animate_1,Animate_2,Animate_3,Animate_4,Animate_5,Animate_6,Animate_7,Animate_8,Animate_9,Animate_10,Animate_11} from './AnimatedContent';
 
 import './assets/css/bootstrap.min.css';
 

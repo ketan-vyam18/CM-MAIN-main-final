@@ -1086,7 +1086,7 @@ height: 60vw;
   box-shadow: 0 0 80px #00a2fa;
 }
 .img-thumb2{
-  background: url("/Galleria_pics/WhatsApp Image 2025-04-12 at 17.32.04_d68b9488.jpg");
+  background: url("/Galleria_pics/WhatsApp Image 2025-04-12 at 17.32.04_d68b9488.png");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;
@@ -2044,11 +2044,11 @@ service-item .child {
   /* box-shadow: red; */
 }
 
-#ket1 { background-image: url("/Galleria_pics/WhatsApp Image 2025-04-11 at 22.08.58_fe707931.jpg"); }
+#ket1 { background-image: url("/Galleria_pics/WhatsApp Image 2025-04-11 at 22.08.58_fe707931.png"); }
 #ket2 { background-image: url("/Galleria_pics/LogIQ main poster.png"); }
 #ket3 { background-image: url("/Galleria_pics/Game Night Poster (Instagram Post).png"); }
-#ket4 { background-image: url("/Galleria_pics/speranza-poster.jpg"); }
-#ket5 { background-image: url("/Galleria_pics/locus-poster.jpg"); }
+#ket4 { background-image: url("/Galleria_pics/speranza-poster.png"); }
+#ket5 { background-image: url("/Galleria_pics/locus-poster.png"); }
 
 #ket1:hover, #ket2:hover, #ket3:hover, #ket4:hover, #ket5:hover{
   transition: transform 0.3s ease, box-shadow 0.3s ease;

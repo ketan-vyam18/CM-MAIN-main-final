@@ -1,4 +1,3 @@
-
 @import url("https://cdn.lineicons.com/3.0/lineicons.css");
 @font-face {
   font-family: 'Azonix';
@@ -201,7 +200,7 @@ b,strong{
 
 }
 #main-pic{
-  background: url("Component 7.svg");
+  background: url("./Galleria_pics/Component 7.svg");
   height: 100vh;
   width: 100%;background-position: 50% 50%;
   backdrop-filter: blur(10px);
@@ -1965,7 +1964,7 @@ service-item .child {
     transition: transform,box-shadow0.5s ease;
     transform: scale(1.1);
     box-shadow: 0 0 20px #9eaab0;
-    background: url("small_centered_thinner_plus (1).png");
+    background: url("./Galleria_pics/small_centered_thinner_plus (1).png");
     background-repeat: no-repeat;
     background-position: center;
     background-size: 20% 20%;
@@ -2045,17 +2044,17 @@ service-item .child {
   /* box-shadow: red; */
 }
 
-#ket1 { background-image: url("WhatsApp Image 2025-04-11 at 22.08.58_fe707931.jpg"); }
-#ket2 { background-image: url("LogIQ main poster.png"); }
-#ket3 { background-image: url("Game Night Poster (Instagram Post).png"); }
-#ket4 { background-image: url("speranza-poster.jpg"); }
-#ket5 { background-image: url("locus-poster.jpg"); }
+#ket1 { background-image: url("./Galleria_pics/WhatsApp Image 2025-04-11 at 22.08.58_fe707931.jpg"); }
+#ket2 { background-image: url("./Galleria_pics/LogIQ main poster.png"); }
+#ket3 { background-image: url("./Galleria_pics/Game Night Poster (Instagram Post).png"); }
+#ket4 { background-image: url("./Galleria_pics/speranza-poster.jpg"); }
+#ket5 { background-image: url("./Galleria_pics/locus-poster.jpg"); }
 
 #ket1:hover, #ket2:hover, #ket3:hover, #ket4:hover, #ket5:hover{
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   transform: scale(1.05);
   box-shadow: 0 0 25px #9eaab0;
-  background-image: url("small_centered_thinner_plus (1).png");
+  background-image: url("./Galleria_pics/small_centered_thinner_plus (1).png");
   background-size: 20%;
 }
 

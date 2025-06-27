@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react';
-import {Reveal,Animate_1,Animate_2,Animate_3,Animate_4,Animate_5,Animate_6,Animate_7,Animate_8,Animate_9,Animate_10,Animate_11} from './AnimatedContent';
+import {Reveal,Animate_1,Animate_2,Animate_3,Animate_4,Animate_5,Animate_6,Animate_7,Animate_8,Animate_9,Animate_10,Animate_11} from '/AnimatedContent';
 
 import './assets/css/bootstrap.min.css';
 
@@ -374,7 +374,7 @@ const sliderRef = useRef(null);
         <div id="logo1">
           <img
             id="cm-logo"
-            src="./public/WhatsApp_Image_2025-02-28_at_21.50.10_86d30eac-removebg-preview 2.svg"
+            src="/public/WhatsApp_Image_2025-02-28_at_21.50.10_86d30eac-removebg-preview 2.svg"
           />
           <p id="name">
             <span id="club">CLUB</span> <span>MATHEMATICA</span>
@@ -653,7 +653,7 @@ const sliderRef = useRef(null);
        
         <Animate_5  width="50vw" delay={0}>
         <div id='drop_list'>
-        <img id="pop" className="animate__animated animate__fadeInLeft"src="./public/WhatsApp_Image_2025-02-28_at_21.50.10_86d30eac-removebg-preview 2.svg" />
+        <img id="pop" className="animate__animated animate__fadeInLeft"src="/public/WhatsApp_Image_2025-02-28_at_21.50.10_86d30eac-removebg-preview 2.svg" />
         <button id="cross" className="animate__animated animate__fadeInRight"  onClick={handleClick}> ☰
         </button>
         <p className='items animate__animated animate__fadeInDown' style={{ animationDelay: "0.3s" }} onClick={() => iconClick("signs")}>
@@ -743,7 +743,7 @@ const sliderRef = useRef(null);
 
               <Animate_7 width="100%" delay={1}>
                 <div id="infi_flex">
-                  <img id="infi1" src="./public/Component 4.svg" />
+                  <img id="infi1" src="/public/Component 4.svg" />
                   <button className="site">Visit Site</button>
                 </div>
               </Animate_7>
@@ -1189,7 +1189,7 @@ const sliderRef = useRef(null);
 
       <section className="footer-distributed">
         <div className="footer-left">
-          <img id="nitc-logo" src="./public/logo.png" />
+          <img id="nitc-logo" src="/public/logo.png" />
 
           {/* Footer menu */}
           <p className="footer-links">

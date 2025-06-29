@@ -1226,7 +1226,7 @@ function ContactForm() {
 
     formData.append("access_key", "dbe37ad5-6d34-45c1-80e3-5d9baa1d07"); //change this acces_key to the club mail id key
 
-    const response = await fetch("https://api.web3forms.com/submit", {
+    const response = await fetch('https://cm-main-main-final.onrender.com/contact', {
       method: "POST",
       body: formData
     });

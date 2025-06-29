@@ -1224,12 +1224,11 @@ function ContactForm() {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "dbe37ad5-6d34-45c1-80e3-5d9baa1d07"); //change this acces_key to the club mail id key
+    formData.append("access_key", "ad8691c1-2780-49ff-8070-2d208305f3ec"); //change this acces_key to the club mail id key
 
-    const response = await fetch('https://cm-main-main-final.onrender.com/contact', {
+    const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify(formData)
+      body: formData
     });
 
     const data = await response.json();

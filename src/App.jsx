@@ -1224,8 +1224,9 @@ function ContactForm() {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "ad8691c1-2780-49ff-8070-2d208305f3ec"); //change this acces_key to the club mail id key
-
+    // formData.append("access_key", "ad8691c1-2780-49ff-8070-2d208305f3ec"); //change this acces_key to the club mail id key
+    // get access key from .env file
+    formData.append("access_key", import.meta.env.access_key); // Ensure you have the correct key in your .env file
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
       body: formData

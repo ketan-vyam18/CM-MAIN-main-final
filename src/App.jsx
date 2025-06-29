@@ -1035,75 +1035,7 @@ const sliderRef = useRef(null);
                 data-wow-delay="0.2s"
               >
                 <div className="form-wrapper">
-                  <form onSubmit={handleSubmit}>
-                    <div className="row">
-                      <div className="col-md-6 form-line">
-                        <div className="form-group">
-                          <input
-                            type="text"
-                            className="form-control name"
-                            id="name1"
-                            name="name"
-                            placeholder="Name"
-                            required
-                            value={formData.name}
-                            onChange={handleChange}
-                          />
-                        </div>
-                      </div>
-                      <div className="col-md-6 form-line">
-                        <div className="form-group">
-                          <input
-                            type="email"
-                            className="form-control email"
-                            id="email"
-                            name="email"
-                            placeholder="Email"
-                            required
-                            value={formData.email}
-                            onChange={handleChange}
-                          />
-                        </div>
-                      </div>
-                      <div className="col-md-12 form-line">
-                        <div className="form-group">
-                          <input
-                            type="text"
-                            className="form-control"
-                            id="msg_subject"
-                            name="subject"
-                            placeholder="Subject"
-                            required
-                            value={formData.subject}
-                            onChange={handleChange}
-                          />
-                        </div>
-                      </div>
-                      <div className="col-md-12">
-                        <div className="form-group">
-                          <textarea
-                            className="form-control"
-                            rows="4"
-                            id="message"
-                            name="message"
-                            placeholder="Message"
-                            required
-                            value={formData.message}
-                            onChange={handleChange}
-                          ></textarea>
-                        </div>
-                        <div className="form-submit">
-                          <button type="submit" className="btn btn-common">
-                            <i
-                              className="fa fa-paper-plane"
-                              aria-hidden="true"
-                            ></i>{" "}
-                            Send Us Now
-                          </button>
-                        </div>
-                      </div>
-                    </div>
-                  </form>
+                  <ContactForm />
                 </div>
               </div>
             </div>
@@ -1282,3 +1214,79 @@ const sliderRef = useRef(null);
 
 
 export default App;
+
+
+function ContactForm() {
+  const [result, setResult] = React.useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "dbe37ad5-6d34-45c1-80e3-5d9baa1d07"); //change this acces_key to the club mail id key
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      setResult(data.message || "Something went wrong.");
+    }
+  };
+
+  return (
+    <form onSubmit={onSubmit}>
+      <div className="row">
+        <div className="col-md-6 form-line">
+          <div className="form-group">
+            <input
+              type="text"
+              className="form-control name"
+              name="name"
+              placeholder="Name"
+              required
+            />
+          </div>
+        </div>
+        <div className="col-md-6 form-line">
+          <div className="form-group">
+            <input
+              type="email"
+              className="form-control email"
+              name="email"
+              placeholder="Email"
+              required
+            />
+          </div>
+        </div>
+        <div className="col-md-12 form-line">
+          <div className="form-group">
+            <textarea
+              className="form-control"
+              rows="4"
+              name="message"
+              placeholder="Message"
+              required
+            ></textarea>
+          </div>
+        </div>
+        <div className="col-md-12">
+          <div className="form-submit">
+            <button type="submit" className="btn btn-common">
+              <i className="fa fa-paper-plane" aria-hidden="true"></i>{" "}
+              Send Us Now
+            </button>
+          </div>
+        </div>
+      </div>
+      <span style={{ display: "block", marginTop: "1rem" }}>{result}</span>
+    </form>
+  );
+}

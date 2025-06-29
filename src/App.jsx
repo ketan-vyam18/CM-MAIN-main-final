@@ -430,7 +430,7 @@ const sliderRef = useRef(null);
                 <strong>Motto:</strong> <em>Unravel. Explore. Excel.</em>
               </p>
             </Animate_6>
-            <a href=""><button className="site2">Visit Site</button></a>
+            <a href="https://infinitum-main.vercel.app"><button className="site2">Visit Site</button></a>
           </div>
         </div>
         <div

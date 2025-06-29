@@ -1228,7 +1228,8 @@ function ContactForm() {
 
     const response = await fetch('https://cm-main-main-final.onrender.com/contact', {
       method: "POST",
-      body: formData
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(formData)
     });
 
     const data = await response.json();

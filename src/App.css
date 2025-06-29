@@ -59,7 +59,7 @@
 #name #club{
   color:#0176B3;
 }
-.nav-menu p,.buttons{
+.nav-menu p,.buttons,a{
   margin-right:5vh;
   margin-top:2vh;
   font-family: 'Azonix', sans-serif;
@@ -73,7 +73,7 @@
   outline: none;
   border:none;
 }
-.nav-menu p{
+.nav-menu p,a{
   color: #ffffff;
 }
 
@@ -1086,7 +1086,7 @@ height: 60vw;
   box-shadow: 0 0 80px #00a2fa;
 }
 .img-thumb2{
-  background: url("/Galleria_pics/WhatsApp Image 2025-04-12 at 17.32.04_d68b9488.png");
+  background: url("/Galleria_pics/WhatsApp Image 2025-04-12 at 17.32.04_d68b9488.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: 100% 100%;

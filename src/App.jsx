@@ -593,12 +593,14 @@ const sliderRef = useRef(null);
             Home{" "}
           </p>
 
-          <p
+          <a
             className={active === "infi-click" ? "elements-active" : "elements"}
             onClick={() => buttonClick("infi-click")}
+
+            href="https://infinitum-main.vercel.app/"
           >
             Infinitum{" "}
-          </p>
+          </a>
 
           <p
             className={
@@ -609,12 +611,13 @@ const sliderRef = useRef(null);
             Events{" "}
           </p>
 
-          <p
+          <a
             className={active === "team-click" ? "elements-active" : "elements"}
             onClick={() => buttonClick("team-click")}
+            href="https://team-page-cm2-hmc4.vercel.app/"
           >
             Our Team{" "}
-          </p>
+          </a>
 
           <p
             className={
@@ -661,11 +664,11 @@ const sliderRef = useRef(null);
           
         </p>
 
-<p className='items animate__animated animate__fadeInDown' style={{ animationDelay: "0.5s" }} onClick={() => iconClick("infi_click")}>Infinitum</p>
+<a href="https://infinitum-main.vercel.app/" className='items animate__animated animate__fadeInDown' style={{ animationDelay: "0.5s" }} onClick={() => iconClick("infi_click")}>Infinitum</a>
 
 <p className='items animate__animated animate__fadeInDown' style={{ animationDelay: "1s" }} onClick={() => iconClick("events_")}>Events</p>
 
-<p className='items animate__animated animate__fadeInDown' style={{ animationDelay: "1.2s" }} onClick={() => iconClick("team_click")}>Our Team</p>
+<a  href="https://team-page-cm2-hmc4.vercel.app/" className='items animate__animated animate__fadeInDown' style={{ animationDelay: "1.2s" }} onClick={() => iconClick("team_click")}>Our Team</a>
 
 <p className='items animate__animated animate__fadeInDown' style={{ animationDelay: "1.5s" }} onClick={() => iconClick("event")}>Gallery</p>
 
@@ -785,7 +788,7 @@ const sliderRef = useRef(null);
                   
                 </div>
                 <div className="overlay-box text-center">
-                  <a className="lightbox" href="/Galleria_pics/WhatsApp Image 2025-04-12 at 17.32.04_d68b9488.png">
+                  <a className="lightbox" href="/Galleria_pics/WhatsApp Image 2025-04-12 at 17.32.04_d68b9488.jpg">
                   <i className="lni lni-plus"></i>
                   </a>
                 </div>
@@ -1206,7 +1209,7 @@ const sliderRef = useRef(null);
             </a>{" "}
             ·
             <a
-              href="#infinitum"
+              href="https://infinitum-main.vercel.app/"
               onClick={() => buttonClick(undefined, "infi_click")}
             >
               Infinitum

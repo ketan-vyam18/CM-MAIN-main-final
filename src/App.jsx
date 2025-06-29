@@ -430,7 +430,7 @@ const sliderRef = useRef(null);
                 <strong>Motto:</strong> <em>Unravel. Explore. Excel.</em>
               </p>
             </Animate_6>
-            <button className="site2">Visit Site</button>
+            <a href=""><button className="site2">Visit Site</button></a>
           </div>
         </div>
         <div
@@ -747,7 +747,7 @@ const sliderRef = useRef(null);
               <Animate_7 width="100%" delay={1}>
                 <div id="infi_flex">
                   <img id="infi1" src="Component 4.svg" />
-                  <button className="site">Visit Site</button>
+                  <button  onClick={() => window.location.href = "https://infinitum-main.vercel.app/"} className="site">Visit Site</button>
                 </div>
               </Animate_7>
             </div>
@@ -1067,7 +1067,7 @@ const sliderRef = useRef(null);
         <Animate_1 width="100% " delay={0}>
           <div className="dive">
             <h2 id="head">Dive into the realm of Mathematica!</h2>
-            <button className="site1">Know More!</button>
+            <button  onClick={() => window.location.href = "https://infinitum-main.vercel.app/"}className="site1">Know More!</button>
           </div>
         </Animate_1>
       </div>

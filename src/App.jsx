@@ -205,7 +205,7 @@ function App() {
     }
 
     try {
-      const res = await fetch(`${import.meta.env.VITE_API_URL}/contact`, {
+      const res = await fetch('https://cm-main-main-final.onrender.com/contact', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
@@ -430,7 +430,7 @@ const sliderRef = useRef(null);
                 <strong>Motto:</strong> <em>Unravel. Explore. Excel.</em>
               </p>
             </Animate_6>
-            <a href=""><button className="site2">Visit Site</button></a>
+            <a href="https://infinitum-main.vercel.app"><button className="site2">Visit Site</button></a>
           </div>
         </div>
         <div
@@ -1217,8 +1217,8 @@ function ContactForm() {
     setResult("Sending....");
     const formData = new FormData(event.target);
 
-    formData.append("access_key", "dbe37ad5-6d34-45c1-80e3-5d9baa1d07"); //change this acces_key to the club mail id key
-
+    // get access key from ENV
+    formData.append("access_key", import.meta.env.VITE_ACCESS_KEY); // Ensure you have the correct key in your .env file
     const response = await fetch("https://api.web3forms.com/submit", {
       method: "POST",
       body: formData

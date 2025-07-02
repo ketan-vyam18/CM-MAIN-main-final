@@ -1060,8 +1060,7 @@ const sliderRef = useRef(null);
         <Animate_1 width="100% " delay={0}>
           <div className="dive">
             <h2 id="head">Dive into the realm of Mathematica!</h2>
-            <button  onClick={() => window.location.href = "https://infinitum-main.vercel.app/"}className="
-            ">Learn More!</button>
+            <button  onClick={() => window.location.href = "https://infinitum-main.vercel.app/"}className="site1">Learn More!</button>
           </div>
         </Animate_1>
       </div>

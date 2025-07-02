@@ -705,49 +705,42 @@ const sliderRef = useRef(null);
         <Animate_9>
           <div id="pics">
             <div id="description">
-              <Animate_6 delay={0}>
-                <b>About C M</b>
-                <br />
-              </Animate_6>
-              <Animate_6 delay={0.3}>
-                <p>
-                  At <strong>Club Mathematica, NIT Calicut</strong> we believe
-                  that mathematics is more than just numbers—it’s a language of
-                  patterns, a tool for innovation, and a bridge between logic
-                  and creativity. As a vibrant cultural club, we create a
-                  dynamic space where intellectual curiosity meets exhilarating
-                  competition.
-                </p>
-              </Animate_6>
-              <Animate_6 delay={0.5}>
-                <p>
-                  Through engaging events, challenging puzzles, and thrilling
-                  contests, we inspire students to embrace problem-solving,
-                  strategic thinking, and the sheer joy of discovery. Our club
-                  thrives on the spirit of collaboration, learning, and the
-                  relentless pursuit of excellence. Whether you’re a math
-                  enthusiast, a puzzle solver, or just someone who loves a good
-                  challenge, <strong>Club Mathematica</strong> is where you
-                  belong.
-                </p>
-              </Animate_6>
-              <Animate_6 delay={0.7}>
-                <p>
-                  Join us in celebrating the beauty of mathematics beyond
-                  textbooks—where logic meets culture, and knowledge turns into
-                  an adventure!
-                </p>
-              </Animate_6>
-              <Animate_6 delay={0.9}>
-                <p>
-                  <strong>Motto:</strong> <em>Unravel. Compete. Conquer.</em>
-                </p>
-              </Animate_6>
+     <Animate_6 delay={0}>
+  <b>About C M</b>
+  <br />
+</Animate_6>
+<Animate_6 delay={0.3}>
+  <p>
+    <strong>ClubMathematica NITC</strong> is one of the most vibrant and dynamic student clubs at NIT Calicut. 
+    Rooted in mathematical thinking but never limited by it, the club fosters an environment where ideas spark, 
+    creativity flows, and teamwork brings them to life.
+  </p>
+</Animate_6>
+<Animate_6 delay={0.5}>
+  <p>
+    With members from across India, we bring together diverse perspectives that strengthen the club’s spirit. 
+    Structured around dedicated teams — Design, Marketing, Content, and Media — we collaborate to plan and execute 
+    events with creativity and precision.
+  </p>
+</Animate_6>
+<Animate_6 delay={0.7}>
+  <p>
+    From engaging on-campus activities to <strong>Infinitum</strong>, our flagship off-campus event that empowers young 
+    minds to explore and grow, each initiative promotes learning, lasting connections, and unforgettable experiences.
+  </p>
+</Animate_6>
+<Animate_6 delay={0.9}>
+  <p>
+    At <strong>Club Mathematica</strong>, we don’t just celebrate mathematics — we transform it into an experience 
+    that’s creative, collaborative, and deeply impactful.
+  </p>
+</Animate_6>
+
 
               <Animate_7 width="100%" delay={1}>
                 <div id="infi_flex">
                   <img id="infi1" src="Component 4.svg" />
-                  <button  onClick={() => window.location.href = "https://infinitum-main.vercel.app/"} className="site">Visit Site</button>
+                  <button  onClick={() => window.location.href = "https://infinitum-main.vercel.app/"} className="site">Register Now!</button>
                 </div>
               </Animate_7>
             </div>

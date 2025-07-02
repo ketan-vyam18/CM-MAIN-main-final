@@ -148,11 +148,19 @@ b,strong{
   border:none;
   width:20vh;
   float:left;
+  font-family: 'Azonix', sans-serif;
   margin-left: 10vh;
   margin-top: 2.9vh;
   margin-right: 2vh;
  
 }
+
+    .site:hover{
+      background-color: #151515;
+  color:#007bff;
+  box-shadow: 0 0 20px #007bff;
+  }
+
 .site2{
   background-color: #0176B3;
   border-radius: 15px;
@@ -233,8 +241,13 @@ margin-top: none;
   outline: none;
   border:none;
   width:20vh;
-  
+  font-family: 'Azonix', sans-serif;
   margin-left: 10vh;
+}
+.site1:hover{
+    background-color: #151515;
+  color:#007bff;
+  box-shadow: 0 0 20px #007bff;
 }
 #the_club{
   margin-bottom: 8vh;
@@ -809,6 +822,7 @@ height: 70vh !important;
     margin-left: 0vh;
     margin-top: 0vh;
   }
+
 
   #head{
     color: #ffffff;

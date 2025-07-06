@@ -842,7 +842,7 @@ const sliderRef = useRef(null);
                 
                 </div>
                 <div className="overlay-box text-center">
-                  <a className="lightbox" href="/Galleria_pics/WhatsApp Image 2025-04-12 at 17.32.04_d68b9488.jpg">
+                  <a className="lightbox" href="/Galleria_pics/IMG_6181.PNG">
                   <i className="lni lni-plus"></i>
                   </a>
                 </div>

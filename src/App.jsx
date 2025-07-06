@@ -614,7 +614,7 @@ const sliderRef = useRef(null);
           <a
             className={active === "team-click" ? "elements-active" : "elements"}
             onClick={() => buttonClick("team-click")}
-            href="https://team-page-cm2-91of.vercel.app/"
+            href="https://team-page-cm2-main.vercel.app/"
           >
             Our Team{" "}
           </a>
@@ -668,7 +668,7 @@ const sliderRef = useRef(null);
 
 <p className='items animate__animated animate__fadeInDown' style={{ animationDelay: "1s" }} onClick={() => iconClick("events_")}>Events</p>
 
-<a  href="https://team-page-cm2-91of.vercel.app/" className='items animate__animated animate__fadeInDown' style={{ animationDelay: "1.2s" }} onClick={() => iconClick("team_click")}>Our Team</a>
+<a  href="https://team-page-cm2-main.vercel.app/" className='items animate__animated animate__fadeInDown' style={{ animationDelay: "1.2s" }} onClick={() => iconClick("team_click")}>Our Team</a>
 
 <p className='items animate__animated animate__fadeInDown' style={{ animationDelay: "1.5s" }} onClick={() => iconClick("event")}>Gallery</p>
 

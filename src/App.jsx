@@ -781,7 +781,7 @@ const sliderRef = useRef(null);
                   
                 </div>
                 <div className="overlay-box text-center">
-                  <a className="lightbox" href="/Galleria_pics/CM4.jpg">
+                  <a className="lightbox" href="/Galleria_pics/IMG_6145.JPG">
                   <i className="lni lni-plus"></i>
                   </a>
                 </div>
@@ -797,7 +797,7 @@ const sliderRef = useRef(null);
 
                 </div>
                 <div className="overlay-box text-center">
-                  <a className="lightbox" href="/Galleria_pics/CM8.jpeg">
+                  <a className="lightbox" href="/Galleria_pics/IMG_6165.JPG">
                   <i className="lni lni-plus"></i>
                   </a>
                 </div>
@@ -812,7 +812,7 @@ const sliderRef = useRef(null);
                   
                 </div>
                 <div className="overlay-box text-center">
-                  <a className="lightbox" href="/Galleria_pics/CM9.png">
+                  <a className="lightbox" href="/Galleria_pics/IMG_6182.JPG">
                   <i className="lni lni-plus"></i>
                   </a>
                 </div>
@@ -827,7 +827,7 @@ const sliderRef = useRef(null);
                 
                 </div>
                 <div className="overlay-box text-center">
-                  <a className="lightbox" href="/Galleria_pics/CM6.jpeg">
+                  <a className="lightbox" href="/Galleria_pics/IMG_6159.JPG">
                   <i className="lni lni-plus"></i>
                   </a>
                 </div>
@@ -842,7 +842,7 @@ const sliderRef = useRef(null);
                 
                 </div>
                 <div className="overlay-box text-center">
-                  <a className="lightbox" href="/Galleria_pics/IMG_6181.PNG">
+                  <a className="lightbox" href="/Galleria_pics/IMG_6158.JPG">
                   <i className="lni lni-plus"></i>
                   </a>
                 </div>

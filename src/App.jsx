@@ -430,7 +430,7 @@ const sliderRef = useRef(null);
                 <strong>Motto:</strong> <em>Unravel. Explore. Excel.</em>
               </p>
             </Animate_6>
-            <a href="https://infinitum-main.vercel.app"><button className="site2">Visit Site</button></a>
+            <a href="https://infinitum.clubmathematica.org/"><button className="site2">Visit Site</button></a>
           </div>
         </div>
         <div
@@ -597,7 +597,7 @@ const sliderRef = useRef(null);
             className={active === "infi-click" ? "elements-active" : "elements"}
             onClick={() => buttonClick("infi-click")}
 
-            href="https://infinitum-main.vercel.app/"
+            href="https://infinitum.clubmathematica.org/"
           >
             Infinitum{" "}
           </a>
@@ -614,7 +614,7 @@ const sliderRef = useRef(null);
           <a
             className={active === "team-click" ? "elements-active" : "elements"}
             onClick={() => buttonClick("team-click")}
-            href="https://team-page-cm2-main.vercel.app/"
+            href="https://team.clubmathematica.org/"
           >
             Our Team{" "}
           </a>
@@ -664,11 +664,11 @@ const sliderRef = useRef(null);
           
         </p>
 
-<a href="https://infinitum-main.vercel.app/" className='items animate__animated animate__fadeInDown' style={{ animationDelay: "0.5s" }} onClick={() => iconClick("infi_click")}>Infinitum</a>
+<a href="https://infinitum.clubmathematica.org/" className='items animate__animated animate__fadeInDown' style={{ animationDelay: "0.5s" }} onClick={() => iconClick("infi_click")}>Infinitum</a>
 
 <p className='items animate__animated animate__fadeInDown' style={{ animationDelay: "1s" }} onClick={() => iconClick("events_")}>Events</p>
 
-<a  href="https://team-page-cm2-main.vercel.app/" className='items animate__animated animate__fadeInDown' style={{ animationDelay: "1.2s" }} onClick={() => iconClick("team_click")}>Our Team</a>
+<a  href="https://team.clubmathematica.org/" className='items animate__animated animate__fadeInDown' style={{ animationDelay: "1.2s" }} onClick={() => iconClick("team_click")}>Our Team</a>
 
 <p className='items animate__animated animate__fadeInDown' style={{ animationDelay: "1.5s" }} onClick={() => iconClick("event")}>Gallery</p>
 
@@ -740,7 +740,7 @@ const sliderRef = useRef(null);
               <Animate_7 width="100%" delay={1}>
                 <div id="infi_flex">
                   <img id="infi1" src="Component 4.svg" />
-                  <button  onClick={() => window.location.href = "https://infinitum-main.vercel.app/"} className="site">Register Now!</button>
+                  <button  onClick={() => window.location.href = "https://infinitum.clubmathematica.org/"} className="site">Register Now!</button>
                 </div>
               </Animate_7>
             </div>
@@ -1060,7 +1060,7 @@ const sliderRef = useRef(null);
         <Animate_1 width="100% " delay={0}>
           <div className="dive">
             <h2 id="head">Dive into the realm of Mathematica!</h2>
-            <button  onClick={() => window.location.href = "https://infinitum-main.vercel.app/"}className="site1">Learn More!</button>
+            <button  onClick={() => window.location.href = "https://infinitum.clubmathematica.org/"}className="site1">Learn More!</button>
           </div>
         </Animate_1>
       </div>
@@ -1134,7 +1134,7 @@ const sliderRef = useRef(null);
             </a>{" "}
             ·
             <a
-              href="https://infinitum-main.vercel.app/"
+              href="https://infinitum.clubmathematica.org/"
               onClick={() => buttonClick(undefined, "infi_click")}
             >
               Infinitum

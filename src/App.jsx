@@ -1181,7 +1181,7 @@ const sliderRef = useRef(null);
         <div className="footer-right">
           {/* Description */}
           <p className="footer-company-about">
-            <span>WEBSITE CREDITS</span>Launched in 2025 it was elegantly designed, developed, and maintained by the Batch' 23 club's  tech leads:<br/>V KETAN<br/> JAYA CHANDRA <br/> KIRAN NAMBIAR <br/>  has striven for delivering functional and impactful solutions for the club.
+            <span>WEBSITE CREDITS</span>Launched in 2025 it was elegantly designed, developed, and maintained by the Batch' 23 club's  tech leads:<br/>V KETAN<br/> U JAYA CHANDRA <br/> KIRAN NAMBIAR <br/>  has striven for delivering functional and impactful solutions for the club.
           </p>
           {/* Links to social media */}
           <div className="footer-icons">
